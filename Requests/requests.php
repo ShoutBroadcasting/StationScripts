@@ -1,14 +1,13 @@
 <?php
-$station_id = 4006;
-$api_key = 'abcd';
+$station_id = 1234; // Set to station ID
+$api_key = 'abcd'; // Set to API key
 
 /* Future Additions:
  - Popup modal when requesting to add name and comment
  - List how many requests user has left available in modal
 */
 
-//$server = 'https://api.shoutautomation.com';
-$server = 'http://api.sradev.net';
+$server = 'https://api.shoutautomation.com';
 
 if (isset($_GET['send']) && is_numeric($_GET['send'])) {
     // Make a request
